@@ -27,7 +27,7 @@ app = dash.Dash(
 
 #---------------------------------------------------------------
 #Taken from https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases
-df = pd.read_csv('CLiP_Database_4_v1.csv')
+df = pd.read_csv('CLiP_Database_Private.csv')
 Infra_class    = df['Infrastructure_class'].unique()
 Infra_subclass = df['Infrastructure_subclass'].unique()
 Hazard         = df['Hazard_type'].unique()
